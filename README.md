@@ -53,7 +53,7 @@ Created Hive external and ORC tables for credit card transactions.
 Integrated Hive with HBase to build the card_transactions_hbase table.
 Inserted and validated records in HBase with timestamp conversions.
 
-###3. Create NoSQL (Create NoSQL.pdf)
+### 3. Create NoSQL (Create NoSQL.pdf)
 Created the Lookup Table in Hive-HBase integration:
 CREATE TABLE LOOKUP_DATA_HBASE(
     CARD_ID STRING,
